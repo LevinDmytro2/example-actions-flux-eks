@@ -20,7 +20,7 @@ spec:
       containers:
       - name: aws-example-octodex
         # image: 00000000000000.dkr.ecr.my-region.amazonaws.com/example-eks:tag
-        image: REGISTRY/IMAGE:TAG
+        image: 564318093816.dkr.ecr.eu-west-1.amazonaws.com/example-eks:1687aa9ee51d95fa59fa4a52d426297ce2dcc07a
         ports:
         - containerPort: 5000
         resources:
