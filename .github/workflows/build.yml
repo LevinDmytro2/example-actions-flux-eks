@@ -33,6 +33,7 @@ jobs:
       
     - name: Setup ECR
       run: |
+        aws --version
         # Login to AWS ECR
         $( aws ecr get-login-password )
 
